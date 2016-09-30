@@ -1046,9 +1046,7 @@
 									</array>
 								</dict>
 								<dict>
-									<key>begin</key>
-									<string>(line)\s*(:)\s*([0-9]+)</string>
-									<key>beginCaptures</key>
+									<key>captures</key>
 									<dict>
 										<key>1</key>
 										<dict>
@@ -1066,17 +1064,8 @@
 											<string>constant.numeric.integer.swift</string>
 										</dict>
 									</dict>
-									<key>end</key>
-									<string>(?!\G)</string>
-									<key>patterns</key>
-									<array>
-										<dict>
-											<key>comment</key>
-											<string>This should only allow strings</string>
-											<key>include</key>
-											<string>#literals</string>
-										</dict>
-									</array>
+									<key>match</key>
+									<string>(line)\s*(:)\s*([0-9]+)</string>
 								</dict>
 								<dict>
 									<key>match</key>
