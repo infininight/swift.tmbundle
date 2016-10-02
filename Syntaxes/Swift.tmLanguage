@@ -1493,7 +1493,7 @@
 				<key>function-initializer</key>
 				<dict>
 					<key>begin</key>
-					<string>\b(init[?!]?)\s*(?=\(|&lt;)</string>
+					<string>(?&lt;!\.)\b(init[?!]?)\s*(?=\(|&lt;)</string>
 					<key>beginCaptures</key>
 					<dict>
 						<key>1</key>
