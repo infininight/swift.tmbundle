@@ -2899,6 +2899,10 @@
 				</dict>
 				<dict>
 					<key>include</key>
+					<string>#compound-name</string>
+				</dict>
+				<dict>
+					<key>include</key>
 					<string>#function-call-expression</string>
 				</dict>
 				<dict>
